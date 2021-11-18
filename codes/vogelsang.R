@@ -10,9 +10,6 @@
 #   if prewhite == 1 then prewhitening using an AR(1) model is used
 #   if prewhite == 0 no prewhitening is used.
 
-#   8/13/96
-
-
 sig2np <- function(v, M, my.kernel, prewhite){
   
   #    v = uhat;
